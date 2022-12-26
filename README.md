@@ -14,10 +14,12 @@
 
 <!-- TOC -->
 
+
 ### 🔧 Requirements
 
 - Last stable NodeJS LTS version (16).
 - At least `yarn 1.22`.
+
 
 ### 📚 TechStack
 
@@ -28,12 +30,14 @@
 - [`jest-extended`](https://github.com/jest-community/jest-extended) for more complex and easy to use expectations.
 - [Allure](https://docs.qameta.io/allure) as reporter
 
+
 ### 🔨 Installation
 
 1. In the root directory install the package dependencies:
    ```shell
    yarn install
    ```
+
 
 ### ▶️ Execute tests in local
 
@@ -49,6 +53,7 @@ Once all the dependencies are installed you are allowed to execute the tests in 
   ```shell
   yarn test:wip
   ```
+
 
 ### 📈 Reports
 
