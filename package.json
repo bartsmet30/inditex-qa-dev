@@ -16,6 +16,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.47.0",
+    "@types/config": "^3.3.0",
     "@wdio/allure-reporter": "^8.0.13",
     "@wdio/cli": "^8.0.13",
     "@wdio/cucumber-framework": "^8.0.13",

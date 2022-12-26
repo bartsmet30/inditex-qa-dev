@@ -33,6 +33,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: ['features/*.feature'],
+    
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

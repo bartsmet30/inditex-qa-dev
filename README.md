@@ -1,6 +1,8 @@
 # Inditex QA Dev Technical Challenge
 
-## Table of content
+## Part 1: User Interface Automation
+
+### Table of content
 
 <!-- TOC -->
 
@@ -12,12 +14,14 @@
 
 <!-- TOC -->
 
-## 🔧 Requirements
+
+### 🔧 Requirements
 
 - Last stable NodeJS LTS version (16).
 - At least `yarn 1.22`.
 
-## 📚 TechStack
+
+### 📚 TechStack
 
 - [Typescript](https://github.com/microsoft/TypeScript/#readme), like JS, but _kind of_ better.
 - [WebdriverIO](https://webdriver.io/) framework runner for automated test.
@@ -26,14 +30,16 @@
 - [`jest-extended`](https://github.com/jest-community/jest-extended) for more complex and easy to use expectations.
 - [Allure](https://docs.qameta.io/allure) as reporter
 
-## 🔨 Installation
+
+### 🔨 Installation
 
 1. In the root directory install the package dependencies:
    ```shell
    yarn install
    ```
 
-## ▶️ Execute tests in local
+
+### ▶️ Execute tests in local
 
 Once all the dependencies are installed you are allowed to execute the tests in different ways:
 
@@ -48,7 +54,8 @@ Once all the dependencies are installed you are allowed to execute the tests in 
   yarn test:wip
   ```
 
-## 📈 Reports
+
+### 📈 Reports
 
 After executing the tests, run the following command to display the results (screenshots are attached in the report):
 

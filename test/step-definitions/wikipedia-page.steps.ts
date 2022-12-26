@@ -10,6 +10,3 @@ Then(
     expect(earlyHistoryText).toHaveTextContaining(expectedYear);
   }
 );
-
-
-
