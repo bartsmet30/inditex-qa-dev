@@ -1,69 +1,16 @@
 # Inditex QA Dev Technical Challenge
 
-## Part 1: User Interface Automation
+## Description
 
-### Table of content
+The project is divided in two folders:
 
-<!-- TOC -->
-
-- [🔧 Requirements](#-requirements)
-- [📚 TechStack](#-techstack)
-- [🔨 Installation](#-installation)
-- [▶️ Execute tests in local](#-execute-tests-in-local)
-- [📈 Reports](#-reports)
-
-<!-- TOC -->
+- `ui`: It contains the solution to exercise 2: Web Automation
+- `api`: It contains the solution to exercise 3: API Handling
 
 
-### 🔧 Requirements
+###  The solutions
 
-- Last stable NodeJS LTS version (16).
-- At least `yarn 1.22`.
-
-
-### 📚 TechStack
-
-- [Typescript](https://github.com/microsoft/TypeScript/#readme), like JS, but _kind of_ better.
-- [WebdriverIO](https://webdriver.io/) framework runner for automated test.
-- [Cucumber-js](https://github.com/cucumber/cucumber-js) easy implementation of steps.
-- [Gherkin](https://cucumber.io/docs/gherkin/reference/) for a friendly scenarios definition.
-- [`jest-extended`](https://github.com/jest-community/jest-extended) for more complex and easy to use expectations.
-- [Allure](https://docs.qameta.io/allure) as reporter
-
-
-### 🔨 Installation
-
-1. In the root directory install the package dependencies:
-   ```shell
-   yarn install
-   ```
-
-
-### ▶️ Execute tests in local
-
-Once all the dependencies are installed you are allowed to execute the tests in different ways:
-
-- Run whole test suite in non-headless mode:
-  ```shell
-  yarn test:execute
-  ```
-- Run specific tests defined by custom
-  tags ([cucumber tag expressions](https://cucumber.io/docs/cucumber/api/#tag-expressions)). Useful to work with
-  the `@wip` tag:
-  ```shell
-  yarn test:wip
-  ```
-
-
-### 📈 Reports
-
-After executing the tests, run the following command to display the results (screenshots are attached in the report):
-
-- Generation
-  ```shell
-  yarn utils:report:generate
-  ```
-- Visualization
-  ```shell
-  yarn utils:report:open
-  ```
+- Follow the instructions in the README files of each exercise. To see the results, execute the tests and generate the test reports as indicated in the README's
+- Please open the test reports and observe the test results. 
+  - For the UI tests: The requested screenshot is attached to the Allure Report. 
+  - For API tests: The output of the API calls is printed in the Mochawesome test report when opening the test cases.

@@ -1,8 +1,8 @@
 import { When } from '@wdio/cucumber-framework';
-import GooglePage from 'page-objects/google-page';
-import { WaitAndClick } from "actions/wait-and-click";
-import { WaitAndSetValue } from "actions/wait-and-set-value";
-import { Navigate } from "actions/navigate";
+import GooglePage from '../page-objects/google-page';
+import { WaitAndClick } from '../actions/wait-and-click';
+import { WaitAndSetValue } from '../actions/wait-and-set-value';
+import { Navigate } from '../actions/navigate';
 
 When(
   'I navigate to the url {word}',

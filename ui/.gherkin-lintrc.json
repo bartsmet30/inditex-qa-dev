@@ -1,0 +1,56 @@
+{
+  "no-files-without-scenarios": "error",
+  "no-unnamed-features": "error",
+  "no-unnamed-scenarios": "error",
+  "no-dupe-scenario-names": [
+    "error",
+    {
+      "scope": "in-feature",
+      "checkArguments": true
+    }
+  ],
+  "no-dupe-feature-names": "error",
+  "no-partially-commented-tag-lines": "error",
+  "no-trailing-spaces": "error",
+  "new-line-at-eof": ["error", "yes"],
+  "no-multiple-empty-lines": "error",
+  "no-empty-file": "error",
+  "no-scenario-outlines-without-examples": "error",
+  "name-length": [
+    "warn",
+    {
+      "Feature": 100,
+      "Scenario": 100,
+      "Step": 120
+    }
+  ],
+  "no-restricted-tags": [
+    "error",
+    {
+      "tags": ["@test", "@wip"]
+    }
+  ],
+  "file-name": [
+    "error",
+    {
+      "style": "kebab-case"
+    }
+  ],
+  "use-and": "error",
+  "no-duplicate-tags": "error",
+  "no-superfluous-tags": "error",
+  "no-homogenous-tags": "error",
+  "one-space-between-tags": "error",
+  "no-unused-variables": "error",
+  "no-background-only-scenario": "error",
+  "no-empty-background": "error",
+  "scenario-size": [
+    "warn",
+    {
+      "steps-length": {
+        "Background": 15,
+        "Scenario": 15
+      }
+    }
+  ]
+}
