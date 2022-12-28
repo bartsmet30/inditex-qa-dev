@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "types": [
+      "mocha",
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/mocha-framework"
+    ],
+    "target": "es2022",
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types", "types"]
+  },
+  "paths": {
+    "*": [
+      "*"
+    ],
+    "models/*": [
+      "test/models/*"
+    ],
+    "clients/*": [
+      "test/clients/*"
+    ],
+    "types/*": [
+      "support/types/*"
+    ],
+    "specs/*": [
+      "test/specs/*"
+    ],
+    "constants/*": [
+      "constants/*"
+    ],
+    "helpers/*": [
+      "test/helpers/*"
+    ]
+  },
+  "include": [
+    "global.d.ts",
+    "**/*.ts",
+    "**/*.js",
+    "config/*.ts",
+    "test/**/*.ts",
+    "test/constants/*.ts"
+  ]
+}

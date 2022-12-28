@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/cucumber-framework"
+    ],
+    "target": "es2022",
+    "lib": [
+      "es2020",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": false,
+    "baseUrl": "..",
+    "paths": {
+      "*": [
+        "*"
+      ],
+      "actions/*": [
+        "test/actions/*"
+      ],
+      "page-objects/*": [
+        "test/page-objects/*"
+      ],
+      "features/*": [
+        "test/features/*"
+      ],
+      "step-definitions/*": [
+        "test/step-definitions/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "ui/test/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "report",
+    "target"
+  ]
+}

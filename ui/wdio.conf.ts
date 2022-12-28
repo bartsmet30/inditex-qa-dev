@@ -1,6 +1,6 @@
-import type { Options } from '@wdio/types'
 import 'tsconfig-paths/register.js'
-import {browser} from "@wdio/globals";
+import type { Options } from '@wdio/types'
+import { browser } from "@wdio/globals";
 
 export const config: Options.Testrunner = {
     //
@@ -32,8 +32,7 @@ export const config: Options.Testrunner = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: ['features/*.feature'],
-    
+    specs: ['test/features/*.feature'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -158,7 +157,7 @@ export const config: Options.Testrunner = {
         [
             'allure',
             {
-                outputDir: 'report/allure-results',
+                outputDir: './report/allure-results',
                 disableWebdriverStepsReporting: true,
                 useCucumberStepReporter: true
             }
