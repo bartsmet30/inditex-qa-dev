@@ -7,6 +7,12 @@ The project is divided in two folders:
 - `ui`: It contains the solution to exercise 2: Web Automation
 - `api`: It contains the solution to exercise 3: API Handling
 
+###  Quick start
+
+Clone this repository to get started:
+  ``` 
+  git clone https://github.com/bartsmet30/inditex-qa-dev.git
+  ```
 
 ###  The solutions
 
