@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { axiosClient } from '../clients/axios-client';
-import { UserSignUp } from '../models/userSignUp';
+import { UserSignUp } from '../models/user-signup';
 import { Endpoints } from '../constants/endpoints';
 const { addContext } = require('wdio-mochawesome-reporter').default
 
